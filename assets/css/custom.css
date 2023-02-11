@@ -1,0 +1,121 @@
+/* CUSTOM THEME SETTINGS */
+
+.page__news {
+    background: none;
+}
+
+.page__pagination-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+    .page__pagination-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pagination {
+        margin-left: auto;
+    }
+
+    .cat__top-item-img {
+        height: 123px;
+    }
+
+    .news {
+        padding-top: 60px;
+    }
+
+    .about__advantages-btn {
+        margin-top: 4.5rem;
+    }
+
+}
+
+.wpc-filter-title, .wpc-filters-section {
+    margin-bottom: 0!important;
+}
+
+.menu-image-title-after.menu-image-not-hovered img {
+    padding-right: 0;
+}
+
+.button.button-prev, .button.button-next{
+    cursor: pointer;
+}
+
+.popup-form {
+    width: unset;
+}
+
+.page__contacts-form form .form-label input {
+    border-bottom: 1px solid #e9e9e9!important;
+}
+
+.page__contacts-form form .form-label textarea {
+    border: 1.5px solid #ECEEF1!important;
+}
+
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 12px!important;
+    font-weight: normal;
+    display: block;
+    margin-top: 3px!important;
+}
+
+#popup-form button.is-close,
+#popup-form-detail button.is-close,
+#popup-form-detail-question button.is-close,
+#popup-form-calculate button.is-close,
+#popup-question button.is-close {
+    top: 13px;
+    right: 13px;
+    color: #222;
+}
+
+.hero-callback {
+    z-index: 1;
+    cursor: pointer;
+}
+
+.page__contacts-map #map {
+    overflow: hidden;
+}
+
+.news-detail__img img {
+    object-fit: contain;
+}
+
+.cat__item--empty {
+    padding: 25px;
+}
+
+.page__contacts-item-cords {
+    cursor: pointer;
+}
+
+.cat__links-item.active::after {
+    width: 18px;
+}
+
+.nav-links:empty {
+    display:none;
+}
+
+.hidden-navbar span {
+    position: relative;
+    top: -5px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: red;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2B2A29
+}
